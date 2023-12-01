@@ -31,19 +31,19 @@ Fonts are separated by a & */
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif; /* Cambié la fuente a Open Sans */
-    background-color: var(--accent1-color); /* Utilizo el color accent1 como fondo general */
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--accent1-color);
 }
 
 header {
-    background-color: var(--nav-background-color); /* Utilizo el color nav-background-color */
-    color: var(--nav-link-color); /* Utilizo el color nav-link-color */
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color); 
     padding: 10px;
     text-align: center;
 }
 
 .back-button {
-    color: var(--nav-hover-link-color); /* Utilizo el color nav-hover-link-color */
+    color: var(--nav-hover-link-color); 
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
@@ -51,7 +51,7 @@ header {
 
 h1 {
     margin: 0;
-    color: var(--headline-color-on-color); /* Utilizo el color headline-color-on-color */
+    color: var(--headline-color-on-color); 
 }
 
 section {
@@ -66,8 +66,7 @@ section img {
     max-width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 2px solid var(--primary-color); /* Utilizo el color primary-color */
-    margin-bottom: 20px; /* Añadido margen entre imágenes y texto */
+    border: 2px solid var(--primary-color);
 }
 
 .text-container {
@@ -75,8 +74,8 @@ section img {
     padding: 20px;
     border: 2px solid var(--primary-color);
     margin-bottom: 20px;
-    background-color: var(--paragraph-background-color); /* Utilizo el color paragraph-background-color como fondo del texto */
-    padding: 10px; /* Añadido margen entre imágenes y texto */
+    background-color: var(--paragraph-background-color); 
+    padding: 10px; 
 }
 
 .project-container {
@@ -91,9 +90,9 @@ section img {
 }
 
 .interior-design-text {
-    background-color: var(--paragraph-background-color); /* Utilizo el color paragraph-background-color como fondo del texto */
+    background-color: var(--paragraph-background-color);  
     padding: 10px;
-     /* Utilizo el color primary-color como fondo del texto */
+     
 }
 
 .interior-design-text h1 {
@@ -103,7 +102,7 @@ section img {
 }
 
 .pool-design-text {
-    background-color: var(--paragraph-background-color); /* Utilizo el color paragraph-background-color como fondo del texto */
+    background-color: var(--paragraph-background-color);
     padding: 10px;
     
 }
