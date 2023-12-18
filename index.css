@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Martian+Mono:wght@400;600&family=Open+Sans:ital,wght@0,500;1,800&display=swap');
+
+:root {
+  --primary-color: #006d77;
+  --secondary-color: #83c5be;
+  --accent1-color: #edf6f9;
+  --accent2-color: #f3bcaa;
+  --heading-font: "AR One Sans";
+  --paragraph-font: "Martian Mono";
+  --headline-color-on-color: #f4ffa3;
+  --nav-link-color: #d8e3eb;
+  --nav-background-color: #4d6772;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #327EB5;
+  --paragraph-background-color: #7090a5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--accent1-color);
+}
+
+header, nav, section, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color); 
+    text-align: center;
+}
+
+.back-button {
+    color: var(--nav-hover-link-color); 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h1 {
+    margin: 0;
+    color: var(--headline-color-on-color); 
+}
+
+nav {
+    background-color: var(--nav-background-color);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Add styles for individual grid items as needed */
+
+footer {
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    text-align: center;
+}
